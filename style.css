@@ -1,3 +1,46 @@
-* {text-align: center;}
+* { 
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'nunitoextralight';
+}
+
+@font-face {
+    font-family: 'nunitoextralight';
+    src: url('nunito-variablefont_wght-webfont.woff2') format('woff2'),
+         url('nunito-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    display: flex; 
+    font-weight: bold;
+    position: sticky;
+}
+
+ul {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    padding: 30px;
+    margin: auto;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px 20px;
+
+    border-radius: 25px;
+    border: 2px solid transparent;
+}
+
+ul li a:hover {
+    border-color: azure;
+}
 
 header {font-weight: bold;}
