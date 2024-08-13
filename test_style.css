@@ -1,7 +1,6 @@
 * { 
     text-align: center;
     font-family: 'nunitoextralight';
-    
 }
 
 body {
@@ -57,7 +56,6 @@ ul li {
 li a {
     text-decoration: none;
     padding: 10px 20px;
-
     border-radius: 25px;
     border: 2px solid transparent;
 }
@@ -92,6 +90,7 @@ header {font-weight: bold;}
 
     overflow: hidden;
     border-radius: 20px;
+    text-align: left;
 }
 
 .card:hover {
@@ -100,10 +99,12 @@ header {font-weight: bold;}
 
 .container {
     padding: 2px 16px 8px 8px;
-    
+    align-content:flex-start;
+    align-items:flex-start;
 }
 
 .skill-tabs{
+    align-self: center;
     align-items: center;
     text-align: center;
     display: flex;
